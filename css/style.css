@@ -1,0 +1,27 @@
+.black-circle {
+  width: 20px;
+  height: 20px;
+  background: #000000;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+}
+
+.white-circle {
+  width: 20px;
+  height: 20px;
+  background: #FFFFFF;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+}
+
+.board {
+  background: #006400;
+  border: 1px #000000 solid;
+}
+.board td {
+  width: 22px;
+  height: 22px;
+  border: 1px #000000 solid;
+}
