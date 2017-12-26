@@ -16,6 +16,15 @@
   -moz-border-radius: 50%;
 }
 
+.red-circle {
+  width: 20px;
+  height: 20px;
+  background: #FF0000;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+}
+
 .board {
   background: #006400;
   border: 1px #000000 solid;
