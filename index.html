@@ -10,6 +10,29 @@
   <header>
       <h1>リバーシ</h1>
   </header>
+  <button id="startButton">スタート</button><br>
+  <div class="form-area">
+    <div class="form-label"><label>対戦相手</label></div>
+    <div class="form-input">
+      <input id="vsModeMan" name="vsMode" type="radio" value="M" checked><label for="vsModeMan">vs人間</label></input> &nbsp; 
+      <input id="vsModeCPU" name="vsMode" type="radio" value="C"><label for="vsModeMan">vsコンピュータ</label></input>
+    </div>
+    <div class="form-label"><label>コンピュータのレベル</label></div>
+    <div class="form-input">
+      <input id="computerLevel1" name="computerLevel" type="radio" value="1" checked><label for="computerLevel1">1</label></input> &nbsp; 
+      <input id="computerLevel2" name="computerLevel" type="radio" value="2" ><label for="computerLevel2">2</label></input> &nbsp;
+      <input id="computerLevel3" name="computerLevel" type="radio" value="3" ><label for="computerLevel3">3</label></input>
+    </div>
+    <div class="form-label"><label>あなたの石の色</label></div>
+    <div class="form-input">
+      <input id="manColorBlack" name="manColor" type="radio" value="B" checked><label for="manColorBlack">黒</label></input> &nbsp; 
+      <input id="manColorWhite" name="manColor" type="radio" value="W"><label for="manColorWhite">白</label></input>
+    </div>
+  </div>
+  <hr>
+  <p><span id="turnNum"></span>手目</p>
+  <p><span id="turnColor"></span>のターンです。</p>
+  <p>黒: <span id="blackStoneNum"></span>, 白:<span id="whiteStoneNum"></span></p>
   <table class="board">
     <tr>
       <td></td>
@@ -92,6 +115,7 @@
       <td></td>
     </tr>
   </table>
+  <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br>
   <footer>
   </footer>
   <script src="js/jquery.js"></script>

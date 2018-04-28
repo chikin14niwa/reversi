@@ -34,3 +34,15 @@
   height: 22px;
   border: 1px #000000 solid;
 }
+
+.form-area {
+}
+
+.form-input {
+  padding-left: 30px;
+}
+
+.form-label {
+  background: #7FFFD4;
+  width: 300px;
+}
